@@ -17,5 +17,10 @@ namespace WindowsEF.Models
         [Column(TypeName ="varchar")] // tipo de dato de slqserver
         [StringLength(50)]//longitud maxima de la cadena
         public string Nombre { get; set; }
+
+
+        #region Propiedades De Navegacion
+        public List<Producto> Productos { get; set; }
+        #endregion
     }
 }

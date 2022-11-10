@@ -13,7 +13,7 @@ namespace WindowsEF.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "202211071923530_CrearBaseDatos"; }
+            get { return "202211091727435_CrearBaseDatos"; }
         }
         
         string IMigrationMetadata.Source

@@ -7,13 +7,13 @@ namespace WindowsEF.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.0")]
-    public sealed partial class MoficiarTablas : IMigrationMetadata
+    public sealed partial class relacionesUnoAUno : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(MoficiarTablas));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(relacionesUnoAUno));
         
         string IMigrationMetadata.Id
         {
-            get { return "202211072004319_MoficiarTablas"; }
+            get { return "202211091753038_relacionesUnoAUno"; }
         }
         
         string IMigrationMetadata.Source
