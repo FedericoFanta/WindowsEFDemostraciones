@@ -2,6 +2,7 @@ using System;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity;
 using System.Linq;
+using WindowsAppPubs.AdminDatos;
 
 namespace WindowsAppPubs.Models
 {
@@ -16,7 +17,9 @@ namespace WindowsAppPubs.Models
         public virtual DbSet<Employee> Employees { get; set; }
         public virtual DbSet<Job> Jobs { get; set; }
         public virtual DbSet<Pub_info> Pub_info { get; set; }
-        public virtual DbSet<Publisher> Publishers { get; set; }
+        public virtual DbSet<Publisher> Stores { get; set; }
+        
+        public virtual DbSet<Store> stores { get; set; }
         public virtual DbSet<Sale> Sales { get; set; }
         public virtual DbSet<Titleauthor> Titleauthors { get; set; }
         public virtual DbSet<Title> Titles { get; set; }

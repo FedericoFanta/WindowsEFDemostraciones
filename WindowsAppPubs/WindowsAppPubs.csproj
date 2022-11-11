@@ -55,11 +55,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminDatos\DacAuthor.cs" />
+    <Compile Include="AdminDatos\DacStore.cs" />
+    <Compile Include="AdminDatos\DacStoreBase.cs" />
+    <Compile Include="AdminDatos\DacStoreHelpers.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConMetodosAuthor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConMetodosAuthor.Designer.cs">
+      <DependentUpon>frmConMetodosAuthor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStore.Designer.cs">
+      <DependentUpon>frmStore.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\Author.cs" />
     <Compile Include="Models\Discount.cs" />
@@ -75,6 +91,15 @@
     <Compile Include="Models\Titleauthor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConMetodosAuthor.resx">
+      <DependentUpon>frmConMetodosAuthor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStore.resx">
+      <DependentUpon>frmStore.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
